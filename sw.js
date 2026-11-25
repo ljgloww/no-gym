@@ -1,8 +1,8 @@
 // Service worker: lets the app open with no connection once it has been loaded over HTTPS.
 // Network first, so a new version shows up as soon as you are online; the cache is the fallback.
-const CACHE = 'nogym-v1';
+const CACHE = 'nogym-v2';
 const SHELL = [
-  './', 'index.html', 'js/app.js', 'js/scene.js', 'js/audio.js', 'vendor/three.module.min.js',
+  './', 'index.html', 'js/app.js', 'js/scene.js', 'js/figure.js', 'js/moves.js', 'js/audio.js', 'vendor/three.module.min.js',
   'manifest.webmanifest', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png',
 ];
 
